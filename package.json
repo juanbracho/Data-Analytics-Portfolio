@@ -1,7 +1,7 @@
 {
   "name": "portfolio-website",
   "version": "0.1.0",
-  "homepage": "http://juanbracho.github.io/Data-Analytics-Porfolio",
+  "homepage": "http://juanbracho.github.io/Data-Analytics-Portfolio",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
