@@ -5,11 +5,11 @@ import Hero from './components/Hero';
 import AssignmentsCarousel from './components/AssignmentsCarousel';
 import ProjectsCarousel from './components/ProjectsCarousel';
 import './App.css';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter } from "react-router-dom";
 
 function App() {
   return (
-  <BrowserRouter basename="/Data-Analytics-Portfolio">
+  <BrowserRouter> {/* No basename */}
     <div className="App">
       <Header />
       <main>
