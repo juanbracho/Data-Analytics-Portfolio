@@ -5,17 +5,27 @@ import Hero from './components/Hero';
 import AssignmentsCarousel from './components/AssignmentsCarousel';
 import ProjectsCarousel from './components/ProjectsCarousel';
 import './App.css';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <Header /> {/* Ensure this line is included */}
-      <main>
-        <Hero />
-        <AssignmentsCarousel />
-        <ProjectsCarousel />
-      </main>
-    </div>
+    <BrowserRouter basename="/repository-name">
+      <Routes>
+        <Route
+          path="/"
+          element={
+            <div className="App">
+              <Header />
+              <main>
+                <Hero />
+                <AssignmentsCarousel />
+                <ProjectsCarousel />
+              </main>
+            </div>
+          }
+        />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
