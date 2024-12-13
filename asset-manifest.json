@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Data-Analytics-Portfolio/static/css/main.930fde03.css",
-    "main.js": "/Data-Analytics-Portfolio/static/js/main.992a2c44.js",
+    "main.js": "/Data-Analytics-Portfolio/static/js/main.35542f57.js",
     "static/js/453.aac68abc.chunk.js": "/Data-Analytics-Portfolio/static/js/453.aac68abc.chunk.js",
     "static/media/mapping.png": "/Data-Analytics-Portfolio/static/media/mapping.babf45f26d66a5e03c31.png",
     "static/media/header.png": "/Data-Analytics-Portfolio/static/media/header.4d794ff013918daa1b5d.png",
@@ -27,11 +27,11 @@
     "static/media/advanced-sql.png": "/Data-Analytics-Portfolio/static/media/advanced-sql.f2fbb4454b1de3eebc9c.png",
     "index.html": "/Data-Analytics-Portfolio/index.html",
     "main.930fde03.css.map": "/Data-Analytics-Portfolio/static/css/main.930fde03.css.map",
-    "main.992a2c44.js.map": "/Data-Analytics-Portfolio/static/js/main.992a2c44.js.map",
+    "main.35542f57.js.map": "/Data-Analytics-Portfolio/static/js/main.35542f57.js.map",
     "453.aac68abc.chunk.js.map": "/Data-Analytics-Portfolio/static/js/453.aac68abc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.930fde03.css",
-    "static/js/main.992a2c44.js"
+    "static/js/main.35542f57.js"
   ]
 }
