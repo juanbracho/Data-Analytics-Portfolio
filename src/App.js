@@ -9,16 +9,16 @@ import { BrowserRouter } from "react-router-dom";
 
 function App() {
   return (
-  <BrowserRouter> {/* No basename */}
-    <div className="App">
-      <Header />
-      <main>
-        <Hero />
-        <AssignmentsCarousel />
-        <ProjectsCarousel />
-      </main>
-    </div>
-  </BrowserRouter>
+    <BrowserRouter> {/* Replace HashRouter with BrowserRouter */}
+      <div className="App">
+        <Header />
+        <main>
+          <Hero />
+          <AssignmentsCarousel />
+          <ProjectsCarousel />
+        </main>
+      </div>
+    </BrowserRouter>
   );
 }
 
