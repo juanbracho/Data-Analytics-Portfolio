@@ -2,7 +2,7 @@
 
 This is a portfolio website designed to showcase assignments and projects completed during a data analytics bootcamp. The site features a hero section with a profile picture and "About Me" section, a carousel for assignments, and a carousel for projects. It also includes a theme toggle to switch between light and dark modes.
 
-![Portfolio Preview](./screenshot.png)
+![Portfolio Preview](./preview.png)
 
 ## Features
 
