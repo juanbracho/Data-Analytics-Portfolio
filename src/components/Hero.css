@@ -1,0 +1,36 @@
+.hero__about h1 {
+  text-align: center;
+}
+
+.hero__about p {
+  text-align: justify;
+}
+
+@media (max-width: 750px) {
+    .hero {
+        margin-top: 80px;
+        flex-direction: column-reverse; /* Places the text above the image */
+        align-items: center;
+        padding: 1rem;
+    }
+  
+    .hero__image img {
+      width: 150px; /* Adjust image size for smaller screens */
+      height: auto;
+      margin-top: 1rem; /* Add space between the text and image */
+    }
+  
+    .hero__about {
+      max-width: 100%; /* Allow text to take full width */
+      text-align: center;
+    }
+  
+    .hero__about h1 {
+      font-size: 1.5rem; /* Reduce heading size */
+    }
+  
+    .hero__about p {
+      font-size: 1rem;
+    }
+  }
+  

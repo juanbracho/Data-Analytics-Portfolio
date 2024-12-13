@@ -1,0 +1,54 @@
+/* src/components/ProjectsCarousel.css */
+
+.projects-carousel {
+    margin-top: 2rem;
+    padding: 2rem;
+    position: relative;
+    text-align: center;
+    background-color: var(--section-bg-color);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .projects-carousel h2 {
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+    text-align: center;
+    color: var(--header-text-color);
+    background-color: var(--section-bg-color);
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+  }
+  
+  .projects-carousel__container {
+    display: flex;
+    justify-content: center;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+  }
+  
+  .projects-carousel__container::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .projects-carousel__item {
+    min-width: 150px;
+    margin-right: 1rem;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .projects-carousel__thumbnail {
+    width: 150px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    transition: transform 0.2s;
+  }
+  
+  .projects-carousel__thumbnail:hover {
+    transform: scale(1.05);
+  }
+  

@@ -1,0 +1,69 @@
+.header {
+  width: 100%;
+  padding: 1rem 2rem;
+  background-color: var(--header-bg-color);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  height: 60px;
+}
+
+.header__content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__info h1 {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--text-color);
+}
+
+.header__info p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: var(--header-text-color);
+}
+
+/* For dark mode adjustments */
+body.dark-mode .header {
+  background-color: #222;
+}
+
+body.dark-mode .header__info p {
+  color: #aaa;
+}
+
+@media (max-width: 750px) {
+  .header {
+    flex-direction: column; /* Stack header content vertically */
+    height: auto;           /* Allow header height to adjust */
+    padding: 1rem;
+    text-align: center;
+  }
+
+  .header__content {
+    flex-direction: column-reverse; /* Places the text above the image */
+    align-items: center;
+  }
+
+  .header__info h1 {
+    font-size: 1.2rem; /* Reduce font size for smaller screens */
+  }
+
+  .header__info p {
+    font-size: 0.85rem;
+  }
+
+  .theme-toggle {
+    margin: 0;
+    padding-right: 75%;
+  }
+}

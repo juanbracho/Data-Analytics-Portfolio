@@ -1,0 +1,95 @@
+main {
+  margin-top: 60px; /* Already existing margin for header offset */
+  padding: 1rem 2rem; /* Add padding around the content */
+}
+/* Add basic styles for the hero section */
+.hero {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2rem;
+}
+
+.hero__image img {
+  border-radius: 15px;
+  width: 250px;
+  height: auto;
+}
+
+.hero__about {
+  max-width: 500px;
+  padding: 1rem;
+}
+
+.hero__about h1 {
+  font-size: 2rem;
+}
+
+.hero__about p {
+  font-size: 1.2rem;
+}
+
+/* Style the carousel */
+.carousel {
+  margin-top: 2rem;
+  padding: 2rem;
+}
+
+.carousel__container {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+
+.carousel__item {
+  min-width: 150px;
+  margin-right: 1rem;
+  text-align: center;
+}
+
+.carousel__placeholder {
+  background: #ccc;
+  height: 100px;
+  margin-bottom: 1rem;
+}
+
+/* Add dark-mode styles */
+
+/* Light mode colors */
+body.light-mode {
+  --background-color: #f9f9f9;
+  --text-color: #333;
+  --header-bg-color: #fff;
+  --section-bg-color: #f2f2f2;
+  --header-text-color: #70A288;
+  --accent-color: #70A288;
+}
+
+/* Dark mode colors */
+body.dark-mode {
+  --background-color: #222;
+  --text-color: #fff;
+  --header-bg-color: #333;
+  --section-bg-color: #333;
+  --header-text-color: #ffcc00;
+  --accent-color: #ffcc00;
+}
+
+/* Apply the colors */
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+.theme-toggle button {
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border: none;
+  background-color: #333;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.theme-toggle button:hover {
+  background-color: #444;
+}
