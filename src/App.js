@@ -9,23 +9,16 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <BrowserRouter basename="/repository-name">
-      <Routes>
-        <Route
-          path="/"
-          element={
-            <div className="App">
-              <Header />
-              <main>
-                <Hero />
-                <AssignmentsCarousel />
-                <ProjectsCarousel />
-              </main>
-            </div>
-          }
-        />
-      </Routes>
-    </BrowserRouter>
+  <BrowserRouter basename="/Data-Analytics-Portfolio">
+    <div className="App">
+      <Header />
+      <main>
+        <Hero />
+        <AssignmentsCarousel />
+        <ProjectsCarousel />
+      </main>
+    </div>
+  </BrowserRouter>
   );
 }
 
