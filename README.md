@@ -17,6 +17,12 @@ This is a portfolio website designed to showcase assignments and projects comple
 - **CSS**: Custom CSS for styling components.
 - **JavaScript**: Handles interactivity in the carousel and theme toggle.
 
+## Access this website
+
+- You can access this website going to
+    ```bash
+    https://juanbracho.github.io/Data-Analytics-Portfolio/
+
 ## Setup Instructions
 
 ### Prerequisites
